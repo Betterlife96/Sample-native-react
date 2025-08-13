@@ -2,21 +2,14 @@
 
 A modern React Native mobile application that connects consumers with local farmers, providing a seamless shopping experience for fresh, organic farm products.
 
-![FarmStarter App](https://img.shields.io/badge/React%20Native-0.79.5-blue?style=for-the-badge&logo=react)
-![Expo](https://img.shields.io/badge/Expo-53.0.9-black?style=for-the-badge&logo=expo)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-blue?style=for-the-badge&logo=typescript)
-![NativeWind](https://img.shields.io/badge/NativeWind-4.1.23-green?style=for-the-badge)
-
 ## 📱 Features
 
 ### 🔐 Authentication & User Management
-
 - **Persistent Login State**: Users stay logged in across app sessions using AsyncStorage
 - **Secure User Registration**: New user signup with validation
 - **User Profile Management**: Complete profile screen with user details and settings
 
 ### 🛒 Shopping Experience
-
 - **Product Catalog**: Browse fresh farm products with high-quality images
 - **Advanced Search & Filtering**:
   - Real-time search by product name and category
@@ -29,20 +22,17 @@ A modern React Native mobile application that connects consumers with local farm
   - Clear cart functionality
 
 ### 📍 Location Services
-
 - **Farm Location Display**: Shows nearby farm coordinates
 - **Loading Indicators**: Smooth loading states for location fetching
 - **Permission Handling**: Proper location permission management
 
 ### 🎨 Modern UI/UX
-
 - **Beautiful Design**: Clean, modern interface with farm-themed colors
 - **Responsive Layout**: Optimized for different screen sizes
 - **Smooth Animations**: Loading states and transitions
 - **NativeWind Styling**: Utility-first CSS framework for React Native
 
 ### 🔧 Technical Features
-
 - **TypeScript**: Full type safety throughout the application
 - **Expo Router**: File-based navigation with authentication guards
 - **React Hook Form**: Form handling with Zod validation
@@ -52,7 +42,6 @@ A modern React Native mobile application that connects consumers with local farm
 ## 🚀 Quick Start
 
 ### Prerequisites
-
 - Node.js (v18 or higher)
 - npm or yarn
 - Expo CLI (`npm install -g @expo/cli`)
@@ -61,14 +50,12 @@ A modern React Native mobile application that connects consumers with local farm
 ### Installation
 
 1. **Clone the repository**
-
    ```bash
-   git clone https://github.com/ashiruhammed/farm-starter-test.git
-   cd farm-starter-test
+   git clone https://github.com/Betterlife96/Sample-native-react.git
+   cd Sample-native-react
    ```
 
 2. **Install dependencies**
-
    ```bash
    npm install
    # or
@@ -76,13 +63,11 @@ A modern React Native mobile application that connects consumers with local farm
    ```
 
 3. **Generate a prebuild**
-
    ```bash
    npx expo prebuild
    ```
 
 4. **Run on your preferred platform**
-
    ```bash
    # iOS
    npx expo run:ios
@@ -92,7 +77,6 @@ A modern React Native mobile application that connects consumers with local farm
    ```
 
 5. **Start development server**
-
    ```bash
    npx expo start
    ```
@@ -100,11 +84,9 @@ A modern React Native mobile application that connects consumers with local farm
 ## 🧪 Testing the App
 
 ### Default Users
-
 The app comes with pre-configured users for testing. You can use any of these credentials:
 
-#### Existing Users (from `assets/data/users.json`):
-
+**Existing Users** (from assets/data/users.json):
 ```json
 [
   {
@@ -114,15 +96,13 @@ The app comes with pre-configured users for testing. You can use any of these cr
 ]
 ```
 
-#### Test Login Flow:
-
+**Test Login Flow:**
 1. Open the app
 2. Tap "Login" on the welcome screen
 3. Use any of the credentials above
 4. Explore the app features
 
-#### Test Signup Flow:
-
+**Test Signup Flow:**
 1. Open the app
 2. Tap "Sign Up" on the welcome screen
 3. Create a new account with any username/password
@@ -131,27 +111,23 @@ The app comes with pre-configured users for testing. You can use any of these cr
 ### Testing Features
 
 #### 🔍 Search & Filtering
-
 - Try searching for "tomatoes", "milk", or "honey"
 - Use the filter button to browse by category
 - Notice how search state persists when you navigate away and back
 
 #### 🛒 Cart Management
-
 - Add products to cart from the main screen
 - Navigate to cart and test quantity controls
 - Try removing items and clearing the cart
 - Notice cart persistence across app restarts
 
 #### 👤 User Profile
-
 - Navigate to Settings tab
 - View your profile information
 - Test the logout functionality
 - Notice login state persistence
 
 #### 📍 Location Services
-
 - Grant location permissions when prompted
 - View farm location coordinates
 - Notice the loading indicator while fetching location
@@ -212,7 +188,6 @@ npx expo run:android          # Run on Android emulator
 ## 🔮 Future Enhancements
 
 ### Planned Features
-
 - **Order Management**: Complete order flow with payment integration
 - **Push Notifications**: Order updates and farm news
 - **Favorites System**: Save favorite products
@@ -223,7 +198,6 @@ npx expo run:android          # Run on Android emulator
 - **Dark Mode**: Theme switching capability
 
 ### Technical Improvements
-
 - **Backend Integration**: Real API endpoints
 - **Image Optimization**: Better image loading and caching
 - **Performance**: Code splitting and lazy loading
@@ -235,17 +209,14 @@ npx expo run:android          # Run on Android emulator
 Download the FarmStarter APK file for easy installation without cloning the project!
 
 ### 📥 Download APK
-
-**[Download FarmStarter APK](https://expo.dev/artifacts/eas/kYwpLbDTWdLeZaV8uux8ij.apk)**
+[Download FarmStarter APK](https://github.com/Betterlife96/Sample-native-react/releases)
 
 ### Installation Instructions
-
-1. **Download the APK file** from the link above
-2. **Install the APK** by tapping on the downloaded file
-3. **Open FarmStarter** and start exploring fresh farm products!
+1. Download the APK file from the link above
+2. Install the APK by tapping on the downloaded file
+3. Open FarmStarter and start exploring fresh farm products!
 
 ### System Requirements
-
 - Android 6.0 (API level 23) or higher
 - Internet connection for product images
 
@@ -254,7 +225,6 @@ Download the FarmStarter APK file for easy installation without cloning the proj
 We welcome contributions! Please feel free to submit issues and pull requests.
 
 ### Development Guidelines
-
 - Follow TypeScript best practices
 - Use NativeWind for styling
 - Maintain consistent code formatting
@@ -267,3 +237,7 @@ We welcome contributions! Please feel free to submit issues and pull requests.
 - **React Native Community**: For the excellent ecosystem
 - **NativeWind Team**: For the utility-first styling solution
 - **Lucide Team**: For the beautiful icon library
+
+---
+
+**Developed by Victory Macaulay Madumere**
