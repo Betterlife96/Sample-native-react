@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Fresh Organic Tomatoes",
+    "price": 4.99,
+    "image": "https://images.unsplash.com/photo-1546094096-0df4bcaaa337?w=400&h=400&fit=crop",
+    "stock": 50,
+    "unit": "kg",
+    "category": "vegetables"
+  },
+  {
+    "id": 2,
+    "name": "Sweet Corn Cobs",
+    "price": 2.49,
+    "image": "https://images.unsplash.com/photo-1601593768797-9e5c6c2c5c8c?w=400&h=400&fit=crop",
+    "stock": 30,
+    "unit": "piece",
+    "category": "vegetables"
+  },
+  {
+    "id": 3,
+    "name": "Fresh Farm Eggs",
+    "price": 8.99,
+    "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?w=400&h=400&fit=crop",
+    "stock": 24,
+    "unit": "dozen",
+    "category": "dairy"
+  },
+  {
+    "id": 4,
+    "name": "Organic Honey",
+    "price": 12.99,
+    "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=400&h=400&fit=crop",
+    "stock": 15,
+    "unit": "jar",
+    "category": "honey"
+  },
+  {
+    "id": 5,
+    "name": "Fresh Milk",
+    "price": 6.49,
+    "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=400&h=400&fit=crop",
+    "stock": 20,
+    "unit": "liter",
+    "category": "dairy"
+  },
+  {
+    "id": 6,
+    "name": "Organic Carrots",
+    "price": 3.99,
+    "image": "https://images.unsplash.com/photo-1447175008436-170d7b7675d3?w=400&h=400&fit=crop",
+    "stock": 40,
+    "unit": "kg",
+    "category": "vegetables"
+  }
+]
